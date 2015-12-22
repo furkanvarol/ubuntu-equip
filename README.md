@@ -17,6 +17,9 @@ For instance, these days I use [Ubuntu's ami-46f4092f AMI](http://cloud.ubuntu.c
 	 * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_mongodb.sh && bash equip_mongodb.sh`
 	 * you get latest version of MongoDB
 	 * configuration: `etc/mongodb.conf`
+  * MongoDB 3 setup
+	 * `wget --no-check-certificate https://github.com/furkanvarol/ubuntu-equip/raw/master/equip_mongodb3.sh && bash equip_mongodb3.sh [version]`
+	 * if version parameter is provided, then you will get that version. otherwise you will get latest version of MongoDB (3.2)
   * Java 1.7 setup (see next script for full auto install 64-bit only)
 	 * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_java.sh && bash equip_java.sh`
 	 * you'll need to manually accept Oracle's license agreement
