@@ -31,6 +31,9 @@ tar -zxvf $FILENAME -C maven --strip-components 1
 # Will copy to /opt
 sudo mv maven /opt/
 
+# Linking to usr bin
+sudo ln -s /opt/maven/bin/mvn /usr/bin/mvn
+
 # Cleanup
 rm -f $FILENAME
 rm -f equip_maven3.sh
