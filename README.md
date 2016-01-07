@@ -37,6 +37,9 @@ For instance, these days I use [Ubuntu's ami-46f4092f AMI](http://cloud.ubuntu.c
      * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_apache.sh && bash equip_apache.sh`
      * you get Apache 2 + common libs and it'll be running on port 80 
      * configuration: `/etc/apache2/apache2.conf`
+  * Tomcat 8 setup
+     * `wget --no-check-certificate https://github.com/furkanvarol/ubuntu-equip/raw/master/equip_tomcat8.sh && bash equip_tomcat8.sh [version]`
+     * if `version` parameter is provided, then it will download such version. if not, 8.0.30 version is downloaded.
   * Passenger setup
      * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_passenger.sh && bash equip_passenger.sh`
   * Android setup
