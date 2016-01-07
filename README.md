@@ -69,6 +69,8 @@ For instance, these days I use [Ubuntu's ami-46f4092f AMI](http://cloud.ubuntu.c
      * if `version` parameter is provided, then it will download such version. if not, 3.3.9 version is downloaded.
   * PostgreSQL setup
      * `wget --no-check-certificate https://raw.githubusercontent.com/aglover/ubuntu-equip/master/equip_postgres.sh && bash equip_postgres.sh`
+  * en_US.UTF8 Locale setup
+     * `wget --no-check-certificate https://raw.githubusercontent.com/furkanvarol/ubuntu-equip/master/equip_locale_utf8.sh && bash equip_locale_utf8.sh`
 
 
 ###Special Thanks
