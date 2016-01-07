@@ -11,4 +11,6 @@ sudo sh -c 'echo "LC_ALL=\"en_US.UTF-8\"" >> /etc/default/locale'
 sudo locale-gen en_US en_US.UTF-8
 sudo dpkg-reconfigure locales
 
+rm equip_locale_utf8.sh
+
 echo "Local is set to en_US.UTF8"
